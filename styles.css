@@ -1,8 +1,40 @@
+html {
+    line-height: 1.5;
+}
+
+#logo {
+    font-size: 28px;
+    display: inline-block;
+    width: 260px;
+}
+
+#nav {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #nav {
+        display: none;
+    }
+}
+
+#nav > * {
+    padding-right: 10px
+}
+
 body {
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 16px;
     margin: 3%;
+    background: #fdf6e3;
+    color: #657b83;
+    text-align: justify;
 }
+
 
 #picture {
     display: inline;
@@ -12,9 +44,75 @@ body {
 #bio, #bio > a {
     display: inline;
     vertical-align: top;
-    text-align: justify;
 }
 
-.list-around-image {
-    padding-left: 2em;
+.code {
+    background-color: #073642;
+    color: #2aa198;
+}
+
+a {
+    color: #268bd2;
+    text-decoration: none;
+}
+
+/*footer {
+    text-align: center;
+}*/
+
+footer > a {
+    font-size: 30px;
+    color: #657b83;
+    padding-right: 15px;
+}
+
+#footer-nav {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    position: relative;
+    top: 10px;
+}
+
+#footer-nav > a {
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  margin-right: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+input {
+    width: 70%;
+    height: 30px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    width: 100px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 16px;
+}
+
+form > * {
+    margin-bottom: 12px;
 }
