@@ -9,6 +9,7 @@ var formSubmit = function(form) {
             window.location.href='index.html';
         },
         error: function(e) {
+            console.error(e)
             alert("Alguma coisa deu errado! Verifique se todos os campos do formulário foram preenchidos");
             // window.location.href='index.html';
         }
