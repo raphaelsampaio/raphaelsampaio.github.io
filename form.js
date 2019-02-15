@@ -4,6 +4,7 @@ var formSubmit = function(form) {
         type: "POST",
         url: url,
         data: form.serialize(),
+        dataType: 'text',
         success: function(data) {
             alert("Obrigado pela mensagem! Redirecionando para a página principal...");
             window.location.href='index.html';
