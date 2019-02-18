@@ -1,0 +1,247 @@
+---
+---
+
+body {
+    line-height: 2.0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 16px;
+    padding: 1% 5% 1% 5%;
+    background: #fdf6e3;
+    color: #657b83;
+    position: absolute;
+    top: 50px;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    width: 100px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 16px;
+}
+
+form > * {
+    margin-bottom: 12px;
+}
+
+a {
+    color: #268bd2;
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid #e7e7e7;
+    margin-top: 10px;
+}
+
+footer > a {
+    font-size: 30px;
+    color: #657b83;
+    padding-right: 15px;
+}
+
+b, strong {
+    color: #586e75;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  margin-right: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.code {
+    background-color: #073642;
+    color: #2aa198;
+}
+
+.container {
+    text-align: center;
+}
+
+.blog-summary {
+    font-size: 18px;
+}
+
+.blog-picture {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 200px;
+}
+
+.blog-content {
+    margin: 3% 15% 3% 15%;
+}
+
+@media only screen and (max-width: 768px) {
+    .blog-content {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#logo {
+    font-size: 28px;
+    display: inline-block;
+    padding-left: 5%;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fdf6e3;
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+#nav-links {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    padding-right: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-links {
+        display: none;
+    }
+}
+
+#nav-links > * {
+    padding-right: 10px
+}
+
+#picture {
+    display: inline;
+    margin-right: 10px;
+}
+
+#bio, #bio > a {
+    display: inline;
+    vertical-align: top;
+}
+
+#footer-nav {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    position: relative;
+    top: 10px;
+}
+
+#footer-nav > a {
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+#blog-author-date {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+}
+
+#blog-author {
+    display: inline;
+}
+
+#blog-date {
+    display: inline;
+}
+
+@media only screen and (max-width: 768px) {
+    .blog-picture {
+        display: block;
+        margin: 0 auto;
+    }
+    #blog-author {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #blog-author-date {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.small-img {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 70px;
+    border-radius: 200px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+/* Share Bar */
+.share-post {
+    position: fixed;
+    top: 40%;
+    left: 5%;
+    background-color: #073642;
+    width: 50px;
+    margin: 0 auto;
+    padding: 5px;
+    color: #fdf6e3;
+    text-align: center;
+    border-radius: 200px;
+    font-size: 20px;
+    opacity: 0.3;
+}
+
+.share-post:hover {
+    opacity: 1;
+}
+
+/* All buttons */
+.share-buttons {
+}
+
+/* Each button */
+.share-button {
+    color: #fdf6e3;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    padding: 5px 10px 5px 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .share-post {
+        display: none
+    }
+    
+}
