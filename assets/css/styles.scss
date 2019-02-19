@@ -8,7 +8,7 @@ body {
     padding: 1% 5% 1% 5%;
     background: #fdf6e3;
     color: #657b83;
-    position: absolute;
+    position: relative;
     top: 50px;
 }
 
@@ -38,8 +38,8 @@ a {
 
 footer {
     clear: both;
-    border-top: 1px solid #e7e7e7;
     margin-top: 10px;
+    border-top: 1px solid #e7e7e7;
 }
 
 footer > a {
@@ -126,9 +126,36 @@ b, strong {
     padding-right: 5%;
 }
 
+
 @media only screen and (max-width: 600px) {
     #nav-links {
         display: none;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #fdf6e3;
+        margin-top: 10px;
+        width: 100%;
+        padding-left: 5%;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    #footer-nav {
+        position: relative;
+        right: 5%;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    .blog-content {
+        position: relative;
+        left: 0;
+        top: -70px;
     }
 }
 
@@ -254,4 +281,11 @@ i#loading-icon {
     font-size: 200px;
     margin-top: -100px;
     margin-left: -100px;  
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        padding: 3%;
+        margin: 0;
+    }
 }
