@@ -13,7 +13,7 @@ layout: default
             <input required placeholder="nome" type="text" name="name"><br/>
             <input required placeholder="e-mail" type="email" name="email"><br/>
             <input required placeholder="assunto" type="text" name="subject"><br/>
-            <textarea maxlength="2500" required placeholder="mensagem" name="message" rows='20'></textarea><br/>
+            <textarea id='contact-textarea' maxlength="2500" required placeholder="mensagem" name="message" rows='20'></textarea><br/>
             <input type="submit" value="Enviar mensagem!">
         </form>
     </div>
