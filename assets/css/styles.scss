@@ -16,15 +16,25 @@ input {
     width: 70%;
     height: 30px;
     font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
 }
 
 input[type="submit"] {
-    width: 100px;
+    width: auto;
+    padding: 10px;
+    height: auto;
+    background-color: #073642;
+    color: #fdf6e3;
 }
 
 textarea {
     width: 100%;
     font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;  
 }
 
 form > * {
