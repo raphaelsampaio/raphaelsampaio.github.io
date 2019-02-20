@@ -226,21 +226,6 @@ const aws = require('aws-sdk')
 const ses = new aws.SES({apiVersion: '2010-12-01'})
 ``` 
 * e enviar o email: 
-```js
-ses.sendEmail({
-    Destination: { ToAddresses: [process.env.EMAIL_DESTINATION]},
-    Message: { 
-        Body: { Text: { Charset: "UTF-8", Data: reqBody.message } },
-        Subject: { Charset: 'UTF-8', Data: reqBody.subject }
-    },
-    Source: process.env.EMAIL_SOURCE,
-    ReplyToAddresses: [reqBody.email]
-}).promise()
-```
-
-Essas variáveis `process.env.EMAIL_DESTINATION` e `process.env.EMAIL_SOURCE` visam esconder seu e-mail de origem (por exemplo `mailbot@SEUDOMINIO`) e destino (por exemplo seu Gmail pessoal). Elas são criadas no console do AWS Lambda como variáveis de ambiente e ficam a disposição do seu script em tempo de execução.
-
-A função `sendEmail` então fica:
 
 ```js
 var sendEmail = function(reqBody) {
@@ -255,6 +240,8 @@ var sendEmail = function(reqBody) {
     }).promise()
 }
 ```
+
+Essas variáveis `process.env.EMAIL_DESTINATION` e `process.env.EMAIL_SOURCE` visam esconder seu e-mail de origem (por exemplo `mailbot@SEUDOMINIO`) e destino (por exemplo seu Gmail pessoal). Elas são criadas no console do AWS Lambda como variáveis de ambiente e ficam a disposição do seu script em tempo de execução.
 
 Testar a sua aplicação localmente é muito simples. Após ter criado uma conta na AWS, configurado o SES e supondo que seu código esteja num arquivo chamado `contact.js`, basta rodar `node contact.js`. O servidor HTTP estará disponível pra uso em `http://localhost:3000`. 
 
@@ -271,7 +258,7 @@ precisamos da instrução
 module.exports = app
 ```
 
-Pô, Rapha, se eu fizer isso eu perco meu servidor local. Como vou testar a aplicação localmente? É verdade, meu parça. Pra isso você vai trocar o nome do seu arquivo local pra `contact.local.js` e criar um script de `build` da sua aplicação que vai pegar o `contact.local.js`, copiar o conteúdo pra um arquivo `contact.js` e substituir a linha `app.listen...` por `module.exports = app`. Além de trazer sua aplicação local de volta do mundo dos mortos, você ainda estará exercitando seu músculo DevOps. Isso me lembra quando conheci o Desenvolvedor Maromba, que me disse as seguintes frases:
+Pô, Rapha, se eu fizer isso eu perco meu servidor local. Como vou testar a aplicação localmente? É verdade, meu/minha parça. Pra isso você vai trocar o nome do seu arquivo local pra `contact.local.js` e criar um script de `build` da sua aplicação que vai pegar o `contact.local.js`, copiar o conteúdo pra um arquivo `contact.js` e substituir a linha `app.listen...` por `module.exports = app`. Além de trazer sua aplicação local de volta do mundo dos mortos, você ainda estará exercitando seu músculo DevOps. Isso me lembra quando conheci o Desenvolvedor Maromba, que me disse as seguintes frases:
 
 
 > FICA INDO NA ACADEMIA E SÓ TRABALHA BRAÇO? DEPOIS FICA COM AS PERNAS FINAS!
