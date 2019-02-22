@@ -5,6 +5,7 @@ summary: "Aqui tem almoço de graça sim! Construí meu site com blog e tudo gas
 author: Raphael Sampaio
 date:   2019-02-17 18:35:00 -0200
 categories: tech
+lang: pt
 ---
 
 Salve discípulos d'**o Mito** ou detratores d'**#ELENÃO**. Nossas diferenças políticas se anulam quando, como bons brasileiros, observamos aquela **pechinchinha dos justos**. 

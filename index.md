@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: pt
 ---
 
 <h1>Quem é esse cara?</h1>

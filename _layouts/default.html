@@ -4,7 +4,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <meta charset="UTF-8">
     <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
-    <meta name="description" content="Blog do Rapha, engenheiro de software na Konduto. Aqui falamos de código, DevOps, gestão de TI e café. "/>
+    <meta name="description" content={{site.t[page.lang].description}}/>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134650842-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -12,7 +12,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-134650842-1');
     </script>
-    <title>Blog do Rapha. Engenheiro de software na Konduto.</title>
+    <title>{{site.t[page.lang].title}}</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/monokai.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -38,9 +38,10 @@
     <div id="nav">
         <div id="logo">Raphael Sampaio</div>
         <div id="nav-links">
-            <a href="/index.html">Quem?</a>|
-            <a href="/blog.html">Blog</a>|
-            <a href="/contact.html">Contato</a>
+            <a href={{site.t[page.lang].alt_prefix}}/index.html>{{site.t[page.lang].meta.alt_name}}</a>|
+            <a href="{{site.t[page.lang].prefix}}/index.html">{{site.t[page.lang].who}}</a>|
+            <a href="{{site.t[page.lang].prefix}}/blog.html">Blog</a>|
+            <a href="{{site.t[page.lang].prefix}}/contact.html">{{site.t[page.lang].contact}}</a>
         </div>
     </div>
     {{content}}
@@ -50,9 +51,9 @@
     <a href="https://github.com/raphaelsampaio" target="_blank"><i class="fab fa-github"></i></a>
     <a href="https://medium.com/@raphaelsampaio" target="_blank"><i class="fab fa-medium"></i></a>
     <div id="footer-nav">
-    <a href="index.html">Quem?</a>|
-    <a href="blog.html">Blog</a>|
-    <a href="contact.html">Contato</a>
+    <a href="{{site.t[page.lang].prefix}}/index.html">{{site.t[page.lang].who}}</a>|
+    <a href="{{site.t[page.lang].prefix}}/blog.html">Blog</a>|
+    <a href="{{site.t[page.lang].prefix}}/contact.html">{{site.t[page.lang].contact}}</a>
     </div>
 </footer>
 </html>
