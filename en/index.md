@@ -16,14 +16,14 @@ lang: en
         <p><b>Last book read:</b> <a href="https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592">The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win</a></p>
         <p><b>Currently reading:</b> <a href="https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002">The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations</a></p>
     </p>
+    <h4>Open source projects I've contributed to</h4>
     <p>
-        Open source projects I've contributed to:
         <ul>
-            <li><a href="https://github.com/helm/charts"></a>Helm Charts</li>
-            <li><a href="https://github.com/roboll/helmfile"></a>Helmfile</li>
-            <li><a href="https://github.com/JustComments"></a>Just Comments</li>
-            <li><a href="https://github.com/konduto/java-sdk"></a>Konduto's Java SDK</li>
-            <li><a href="https://github.com/thumbsup/lambda-cloudfront-cookies"></a>Lambda Cloudfront Cookies</li>
+            <li><a href="https://github.com/helm/charts">Helm Charts</a></li>
+            <li><a href="https://github.com/roboll/helmfile">Helmfile</a></li>
+            <li><a href="https://github.com/JustComments">Just Comments</a></li>
+            <li><a href="https://github.com/konduto/java-sdk">Konduto's Java SDK</a></li>
+            <li><a href="https://github.com/thumbsup/lambda-cloudfront-cookies">Lambda Cloudfront Cookies</a></li>
         </ul>
     </p>
     <h2>Master of Economics</h2>
