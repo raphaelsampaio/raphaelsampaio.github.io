@@ -13,25 +13,49 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Blog do Rapha. Engenheiro de software na Konduto.
+# title: Blog do Rapha. Engenheiro de software na Konduto.
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-    Blog do Rapha, engenheiro de software na Konduto.
-    Aqui falamos de código, DevOps, gestão de TI e café.
-# baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://raphaelsampaio.com" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+twitter_username: rphsmp
 github_username:  raphaelsampaio
 
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-    - jekyll-feed
-    - jekyll-sitemap
 
 sass:
     style: compressed
+
+t:
+    pt:
+        meta:
+            name: Português
+            alt_name: 🇺🇸
+        prefix: ""
+        alt_prefix: /en
+        title: Raphael Sampaio, engenheiro de software
+        description: "Sou engenheiro de software na Konduto, 
+        escrevo sobre programação e DevOps enquanto tomo café"
+        who: Quem?
+        contact: Contato
+        date_format: "%d/%m/%Y"
+        locale: pt_BR
+        latest_posts: Últimos posts
+    en:
+        meta:
+            name: English
+            alt_name: 🇧🇷
+        prefix: /en
+        alt_prefix: ""
+        title: Raphael Sampaio, software engineer
+        description: "I'm a software engineer at Konduto,
+        writing about code and DevOps while drinking coffee.
+        " 
+        who: Who am I?
+        contact: Contact
+        date_format: "%b %d, %Y"
+        locale: en_US
+        latest_posts: Latest posts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

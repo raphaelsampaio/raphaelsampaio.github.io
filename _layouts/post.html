@@ -7,7 +7,7 @@ layout: default
         <div><img class="blog-picture" src="/assets/images/eu_2.jpg" width="80px" height="80px" alt="Minha pessoa">
             <div id="blog-author-date">
                 <span id="blog-author"><b>{{page.author}}</b></span>
-                <span id="blog-date"><i>{{ page.date | date: '%d/%m/%Y' }}</i></span>
+                <span id="blog-date"><i>{{ page.date | date: site.t[page.lang].date_format] }}</i></span>
             </div>
         </div>
     </header>
@@ -17,7 +17,7 @@ layout: default
     <div class="just-comments" 
     data-apikey="4bcc7b21-25e9-4c29-850d-7a00a5bbc801" 
     data-recaptcha="true"
-    data-locale="en_US"
+    data-locale={{site.t[page.lang].locale}}
     data-allowguests="true"></div>
     <script async src="https://just-comments.com/w.js"></script>
 </div>

@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: pt
 ---
 
 <h1>Quem é esse cara?</h1>
@@ -13,6 +14,8 @@ layout: default
     <p>
     Tenho 8 anos de experiência com engenharia de software em geral, principalmente código backend assíncrono. Tipo bastante Java (<a href="https://vertx.io/">Vert.x</a>). Também sei fazer truques harrypotterísticos em Python e já trabalhei durante muito tempo com desenvolvimento web utilizando Ruby on Rails. Tô por dentro de boa parte dos produtos da AWS e escrevo scripts maneiros de CI (<a href="https://gitlab.com">GitLab</a> ❤️). Bancos de dados também fazem parte da minha caixinha de habilidades (bastante MySQL e DynamoDB). Curto conteinerização e tenho alguma experiência com Kubernetes &mdash; <span class='code'>$ kubectl world peace</span>. Além de toda essa parafernália técnica também gosto muito de ler sobre como melhorar a eficiência do trabalho, por exemplo através de métodos como <a href="https://en.wikipedia.org/wiki/Kanban_(development)">Kanban</a>.
     </p>
+    <p><b>Último livro lido:</b> <a href="https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592">The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win</a></p>
+    <p><b>Lendo:</b> <a href="https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002">The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations</a></p>
     <h2>Mestre em economia</h2>
     <p>
     Além do meu trabalho com software, também sou mestre em Economia pela FGV desde 2018. Minha tese questiona se Fundos de Investimento Imobiliário (FIIs) têm vantagem competitiva ao investirem mais em sustentabilidade. O link pro PDF <a href="http://bibliotecadigital.fgv.br/dspace/handle/10438/24443" target="_blank">tá aqui</a>. Leia se você: 
