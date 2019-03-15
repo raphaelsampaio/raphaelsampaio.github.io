@@ -16,6 +16,16 @@ lang: en
         <p><b>Last book read:</b> <a href="https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592">The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win</a></p>
         <p><b>Currently reading:</b> <a href="https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002">The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations</a></p>
     </p>
+    <p>
+        Open source projects I've contributed to:
+        <ul>
+            <li><a href="https://github.com/helm/charts"></a>Helm Charts</li>
+            <li><a href="https://github.com/roboll/helmfile"></a>Helmfile</li>
+            <li><a href="https://github.com/JustComments"></a>Just Comments</li>
+            <li><a href="https://github.com/konduto/java-sdk"></a>Konduto's Java SDK</li>
+            <li><a href="https://github.com/thumbsup/lambda-cloudfront-cookies"></a>Lambda Cloudfront Cookies</li>
+        </ul>
+    </p>
     <h2>Master of Economics</h2>
     <p>
         I'm also a Master of Economics and my thesis examines whether greener REITs (real estate investment trusts) have competitive advantage. Feel free to <a href="/en/contact.html">contact me</a> if you want to read it :)
