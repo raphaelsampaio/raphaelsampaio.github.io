@@ -44,7 +44,7 @@ After repeating the step above for each of the largest folders, I ended up at ``
 
 Good news: I found the culprit. 
 
-Bad news: I didn't know how to reduce the space dedicated to Docker. Cleaning containers and images did not really help.
+Bad news: I didn't know how to reduce the space dedicated to Docker.
 
 Luckily, Docker has an outstanding documentation and I found the answer to my problem [there](https://docs.docker.com/docker-for-mac/space/).
 
