@@ -14,7 +14,7 @@ lang: en
     <p>
         My strongest skill is asynchronous backend code, with plenty of experience in Vert.x (Java). I've also worked as a web developer and know Ruby on Rails, ember.js, CSS and HTML5. My work at Konduto involves data engineering, for which I use R and Pandas (Python). During my career I've worked with MySQL, mongodb and DynamoDB. AWS tools, such as EC2, SES, SQS, Cloudformation and S3 are all part of my daily work. I also enjoy reading about everything that can help improve the flow of work (CI, CD, Kanban, ...). Oh and before I forget, I'm also a big fan of containers and their orchestration. 
         <p><b>Last book read:</b> <a href="https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592">The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win</a></p>
-        <p><b>Currently reading:</b> <a href="https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002">The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations</a></p>
+        <p><b>Now reading:</b> <a href="https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002">The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations</a></p>
     </p>
     <h4>Open source projects I've contributed to</h4>
     <p>
