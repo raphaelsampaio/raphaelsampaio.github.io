@@ -35,7 +35,7 @@ lang: pt
     </ul>
     <h2>Aviões, futebol e música</h2>
     <p>
-    Achou que tinha acabado? Achou errado, porque também piloto aviões. Sou aluno do curso de Piloto Privado desde 2017. Tenho mais de 30h voando o <a href="https://en.wikipedia.com/wiki/Cessna_152" target="_blank">Cessna 150/152</a> e umas 4h voando o <a href="https://pt.wikipedia.com/wiki/Cessna_172" target="_blank">Cessna 172</a>.
+    Achou que tinha acabado? Achou errado, porque também piloto aviões. Sou Piloto Privado desde 2019. Tenho mais de 30h voando o <a href="https://en.wikipedia.com/wiki/Cessna_152" target="_blank">Cessna 150/152</a> e umas 4h voando o <a href="https://pt.wikipedia.com/wiki/Cessna_172" target="_blank">Cessna 172</a>.
     </p>
     Adivinha? Tem mais coisa! Também jogo futebol e toco guitarra.
     <p>
