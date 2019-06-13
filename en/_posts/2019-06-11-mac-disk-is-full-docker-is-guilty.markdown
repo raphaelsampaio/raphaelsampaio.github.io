@@ -55,3 +55,5 @@ By moving the **Disk image size** slider back to 16 GB instead of 64 drastically
 And this was the end result:
 
 <img alt='lots of disk space'  width="500" src="https://s3-us-west-2.amazonaws.com/raphaelsampaio.com/after-reducing-docker-disk-space.png">
+
+> Warning: If the maximum size is reduced, the current file will be deleted and, therefore, all containers and images will be lost (https://docs.docker.com/docker-for-mac/space/)
