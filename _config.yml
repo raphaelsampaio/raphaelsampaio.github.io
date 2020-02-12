@@ -41,6 +41,10 @@ t:
         date_format: "%d/%m/%Y"
         locale: pt_BR
         latest_posts: Últimos posts
+        name: nome
+        subject: assunto
+        message: mensagem
+        send_message: Enviar mensagem
     en:
         meta:
             name: English
@@ -56,6 +60,11 @@ t:
         date_format: "%b %d, %Y"
         locale: en_US
         latest_posts: Latest posts
+        name: name
+        subject: subject
+        message: message
+        send_message: Send message
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
